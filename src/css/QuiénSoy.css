@@ -1,0 +1,161 @@
+.containerquiensoy {
+  width: 100vw;
+  height: auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.containeracerca {
+  width: 100vw;
+  height: 80vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row-reverse;
+  /* background-color: #f9f9f9; */
+  align-items: center;
+  margin-top: 5%;
+}
+.containerAcercademi {
+}
+.pacercademi {
+  width: 30vw;
+  font-size: 70%;
+  text-align: justify;
+  line-height: 31px;
+
+}
+.imagenFutbol {
+  border-radius: 20%;
+  height: 60vh;
+  max-width: 100%;
+}
+
+.titleh4 {
+  font-size: 130%;
+  color: #0c7fb0;
+  letter-spacing: 2px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .containeracerca {
+    flex-direction: column;
+    /* margin-top: 10%; */
+    height: 100vh;
+  }
+  .pacercademi {
+    width: 70vw;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .imagenFutbol {
+    height: 50vh;
+    width: 55vw;
+    border-radius: 20%;
+  }
+  .containerAcercademi {
+    height: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .containeracerca {
+    flex-direction: column;
+    margin-top: 0%;
+    display: flex;
+    height: auto;
+    background-color: transparent;
+  }
+  .pacercademi {
+    width: 70vw;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 5%;
+    line-height: 31px;
+  }
+  .imagenFutbol {
+    margin-top: 15%;
+    height: 35vh;
+    width: 80%;
+    border-radius: 15%;
+    margin-bottom: 10%;
+  }
+  .containerAcercademi {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .titleh4 {
+    font-size: 100% !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .containeracerca {
+    flex-direction: column;
+    margin-top: 10%;
+    display: flex;
+    height: 0%;
+
+  }
+  .pacercademi {
+    width: 70vw;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 5%;
+    line-height: 31px;
+  }
+  .imagenFutbol {
+    margin-top: 15%;
+    height: 35vh;
+    width: 80%;
+    border-radius: 15%;
+    margin-bottom: 10%;
+  }
+  .containerAcercademi {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .titleh4 {
+    font-size: 110%;
+  }
+}
+
+
+@media screen and (min-width: 426px) and (max-width:582px) {
+  .containeracerca {
+    flex-direction: column;
+    margin-top: 10%;
+    display: flex;
+    height: 0%;
+
+  }
+  .pacercademi {
+    width: 70vw;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 5%;
+    line-height: 31px;
+  }
+  .imagenFutbol {
+    margin-top: 15%;
+    height: 35vh;
+    width: 70%;
+    border-radius: 15%;
+    margin-bottom: 10%;
+  }
+  .containerAcercademi {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .titleh4 {
+    font-size: 110%;
+  }
+}

@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: none;
+  background-color: none;
+}
+
+.nathalia {
+  width: 100vw;
+  height: 80vh;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nathaliaparrafo {
+  color: #6d7173;
+} 
+.Icons {    
+  color: #0c7fb0;
+  font-size: 40px !important;
+  display: flex;
+  border-bottom: none !important;
+}
+/* 
+.img{
+  display: none;
+  } */
+
+.divtext {
+  width: 100%;
+  max-height: 50vh;
+  height: 70%;
+  text-align: start;
+}
+.containerText {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+.saludo {
+  color: #0c7fb0;
+  letter-spacing: 2px;
+}
+
+.nombre {
+  color: #061820;
+}
+.contenedorIcons {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 5%;
+  border-bottom: none !important;
+}
+.botones {
+  border-bottom-color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.img{
+  width: 50vw;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nathalia {
+    background-image: url(../images/large.jpg);
+    background-color: (rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background-size: 100vw;
+  }
+  .img {
+    display: none;
+  }
+  .overlay {
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .divtext {
+    align-self: flex-start;
+    margin-top: 18%;
+    font-size: x-large;
+    width: 40%;
+    height: 60%;
+    z-index: 5;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: start;
+  }
+  .nathaliaparrafo {
+    left: 0.4;
+    color: whitesmoke;
+    text-align: start;
+    font-size: 80%;
+    width: 39vw;
+  }
+  .nombre {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px;
+    letter-spacing: 3px;
+    width: 50vw;
+  }
+  .saludo {
+    color: whitesmoke;
+    text-shadow: rgb(206, 206, 206) 0px 1px 1px;
+    letter-spacing: 2px;
+  }
+  .contenedorIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    border-bottom: none !important;
+  }
+  .botones {
+    /* border-bottom-color: transparent; */
+    /* border-bottom: none !important; */
+  }
+  .Icons {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 5px 5px !important;
+    font-size: 40px;
+    display: flex;
+    /* border-bottom: none !important; */
+
+  }
+ 
+}
+
+
+@media screen and (max-width: 768px)  {
+  .nathalia {
+    background-image: url(../images/large.jpg);
+    background-color: (rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background-size: 100vw;
+  }
+  .img {
+    display: none;
+  }
+  .overlay {
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .divtext {
+    align-self: flex-start;
+    margin-top: 18%;
+    font-size: x-large;
+    width: 40%;
+    height: 60%;
+    z-index: 5;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: start;
+  }
+  .nathaliaparrafo {
+    left: 0.4;
+    color: whitesmoke;
+    text-align: start;
+    font-size: 80%;
+    width: 39vw;
+  }
+  .nombre {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px;
+    letter-spacing: 3px;
+    width: 50vw;
+  }
+  .saludo {
+    color: whitesmoke;
+    text-shadow: rgb(206, 206, 206) 0px 1px 1px;
+    letter-spacing: 2px;
+  }
+  .contenedorIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    border-bottom: none !important;
+  }
+  .botones {
+    /* border-bottom-color: transparent; */
+    /* border-bottom: none !important; */
+  }
+  .Icons {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 5px 5px !important;
+    font-size: 40px;
+    display: flex;
+    /* border-bottom: none !important; */
+
+  }
+ 
+}
+
+@media screen and (max-width: 320px) {
+  .nathalia {
+    background-image: url(../images/perfil.jpg);
+    background-color: (rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background-size: 128vw;
+    background-position-x: 5px;
+    background-position-y: 25px;
+
+  }
+  .img {
+    display: none;
+  }
+  .divtext {
+    align-self: flex-start;
+    margin-top: 30%;
+    font-size: large;
+    width: 61%;
+    height: 40%;
+    z-index: 5;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .nathaliaparrafo {
+    left: 0.4;
+    color: whitesmoke;
+    text-align: start;
+    font-size: 85%;
+    width: 60vw;
+    /* line-height: 20px; */
+
+  }
+  .nombre {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px;
+    letter-spacing: 3px;
+    width: 80vw;
+    font-size: x-large;
+
+  }
+  .saludo {
+    color: whitesmoke;
+    text-shadow: rgb(206, 206, 206) 0px 1px 1px;
+    letter-spacing: 2px;
+    font-size: x-large;
+  }
+  .contenedorIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    border-bottom: none !important;
+  }
+  .Icons{
+    color: #1aadec importan!;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px !important;
+    font-size: 20px;
+    display: flex;
+  }
+ 
+}
+
+@media screen and (max-width: 426px) {
+  .nathalia {
+    background-image: url(../images/perfil.jpg);
+    background-color: (rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background-size: 118vw;
+    background-position-x: 0px;
+    background-position-y: 0px;
+
+  }
+  .img {
+    display: none;
+  }
+  .divtext {
+    align-self: flex-start;
+    margin-top: 25%;
+    font-size: large;
+    width: 61%;
+    height: 45%;
+    z-index: 5;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: start;
+  }
+  .nathaliaparrafo {
+    left: 0.4;
+    color: whitesmoke;
+    text-align: start;
+    font-size: 95%;
+    width: 55vw;
+    line-height: 20px;
+
+  }
+  .nombre {
+    color: #1aadec;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px;
+    letter-spacing: 3px;
+    width: 70w;
+    font-size: xx-large;
+
+  }
+  .saludo {
+    color: whitesmoke;
+    text-shadow: rgb(206, 206, 206) 0px 1px 1px;
+    letter-spacing: 2px;
+    font-size: x-large;
+  }
+  .contenedorIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    border-bottom: none !important;
+  }
+  .Icons{
+    color: #1aadec importan!;
+    text-shadow: rgb(206, 206, 206) 0px 1.5px 1.5px !important;
+    font-size: 20px;
+    display: flex;
+  }
+ 
+}
+
+
+
+@media screen and (max-width: 2560px)  {
+ .img{
+  height: 80vh;
+  margin-bottom: 0%;
+  margin-top: 0%;
+ }
+
+ .img2{
+  height: 83vh;
+ }
+
+ .nathalia{
+  height: 100vh;
+ }
+}
