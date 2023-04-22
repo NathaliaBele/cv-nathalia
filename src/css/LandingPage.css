@@ -222,16 +222,20 @@ a{
   }
  }
 
- @media screen and (max-width: 376px) and (min-width: 279px) {
+ @media screen and (max-width: 376px) and (min-width: 1px) {
   #page-1{
     min-height: 1500px !important;    
   }
   #page-2{
-    min-height:1400px !important;
+    min-height:2400px !important;
     display: flex;
+
   }
   #page-3{
-    min-height: 1250px !important;
+    min-height: 2250px !important;
+    background-color: red;
+    display: flex;
+
   }
   #page-4{
     min-height: 1100px !important;
@@ -291,3 +295,4 @@ a{
 
   }
 }
+
