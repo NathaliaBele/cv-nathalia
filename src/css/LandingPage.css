@@ -238,3 +238,56 @@ a{
 
   }
 }
+
+@media screen and (max-width: 237px)  {
+  #page-1{
+    min-height: 1500px !important;    
+  }
+  #page-2{
+    min-height:2000px !important;
+    /* display: flex; */
+  }
+  #page-3{
+    min-height: 1550px !important;
+  }
+  #page-4{
+    min-height: 1100px !important;
+
+  }
+}
+
+@media screen and (max-width: 279px)  {
+  #page-1{
+    min-height: 1500px !important;    
+  }
+  #page-2{
+    min-height:2000px !important;
+    /* display: flex; */
+  }
+  #page-3{
+    min-height: 1550px !important;
+  }
+  #page-4{
+    min-height: 1100px !important;
+
+  }
+}
+
+
+@media screen and (max-width: 132px)  {
+  #page-1{
+    min-height: 1500px !important;    
+  }
+  #page-2{
+    min-height:3000px !important;
+
+    /* display: flex; */
+  }
+  #page-3{
+    min-height: 2550px !important;
+  }
+  #page-4{
+    min-height: 1100px !important;
+
+  }
+}
